@@ -9,3 +9,7 @@ False
 >>> is_palindrome('Go hang a salami, I’m a lasagna hog.')
 True
 ```
+
+## Thoughts
+
+- My solution is at least as good as model answer in this case...
