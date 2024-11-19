@@ -12,3 +12,22 @@ NOTE: Since the input argument could be a list of lists, your function should be
 >>> print(index_all(example, [1, 2, 3]))
 [[0, 0], [1]]
 ```
+
+As you can see here this is correct:
+
+```
+                                      L0.     L1.     L2.
+>>> example = [                      
+                [                     
+                  [1, 2, 3],          0       0        1
+                   2,                 0       1
+                   [1, 3]             
+                ], 
+                [1, 2, 3]             1       1
+              ]
+```
+## Thoughts
+
+- Did not enjoy this one struggled with
+  - the indexing and messing around with extend/append etc
+  - getting the recursion correct
