@@ -7,3 +7,7 @@ Your goal is to implement a function, `sort_words()`, that takes a string contai
 >>> sort_words('banana ORANGE apple')
 'apple banana ORANGE'
 ```
+
+## Thoughts
+
+- nice improvement to remove the list comprehension
